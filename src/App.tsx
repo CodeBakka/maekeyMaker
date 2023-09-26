@@ -55,7 +55,7 @@ function App() {
         <div className={styles.content}>
             <div className={styles.title}>マエキーメーカー</div>
             <div className={styles.imgArea} ref={ref}>
-                <img className={styles.maekeyImg} src="../public/maekey.png" alt="maekey"/>
+                <img className={styles.maekeyImg} src="./maekey.png" alt="maekey"/>
                 <div className={styles.background}></div>
                 <div className={styles.textArea1}>{text.length < 1 ? defaultValue : text}</div>
                 <div className={styles.textArea2}>いねーよな！？</div>
