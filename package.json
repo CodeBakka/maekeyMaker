@@ -13,6 +13,10 @@
     "test-browser": "IS_BROWSER=true vitest -w false",
     "test-watch": "vitest --no-threads",
     "deploy": "bash ./deploy.sh",
+    "preview": "vite preview",
+    "pre-commit": "lint-staged && npm run test && npm run test-browser",
+    "storybook": "IS_WEB=true storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -28,7 +32,8 @@
     "dom-to-image": "^2.6.0",
     "firebase": "^10.4.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.24.1"
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "^2.0.0-beta.18",

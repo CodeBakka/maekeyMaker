@@ -5,14 +5,18 @@ body {
   background-repeat: repeat;
   background-size: 100px 100px;
   margin: 0;
+  overflow: hidden;
+  padding: 0;
 }
 .content {
-  width: 100vw;
+  width: 98vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  //justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 auto ;
+  padding: 5px 0;
 }
 
 .title {
@@ -29,6 +33,8 @@ body {
   display: flex;
   position: relative;
   justify-content: center;
+  height: 78%;
+  width: 40%;
 }
 
 .maekeyImg {
@@ -48,6 +54,7 @@ body {
   font-size: 30px;
   font-weight: 700;
   overflow-wrap: break-word;
+  overflow: hidden;
 }
 
 .textArea2 {
@@ -61,7 +68,7 @@ body {
   writing-mode: vertical-rl;
   font-size: 30px;
   font-weight: 700;
-
+  overflow: hidden;
 }
 .background {
   position: absolute;
@@ -154,5 +161,37 @@ button {
     flex-wrap: wrap;
     margin: 0 auto;
     border: 1px black solid;
+  }
+
+  .imgArea {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 78%;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    height: 40px;
+    background: white;
+    cursor: pointer;
+    border: black 3px solid;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    &:hover {
+      background: lightgray;
+    }
+  }
+
+  .buttonArea {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
   }
 }
