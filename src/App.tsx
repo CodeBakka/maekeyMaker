@@ -6,7 +6,7 @@ export const App = () => {
     return (
         <Routes>
             <Route path="/maekey" element={<Maekey/>}/>
-            <Route path="/touchdown" element={<TouchDown />}/>
+            <Route path="/" element={<TouchDown />}/>
         </Routes>
     )
 }
