@@ -1,0 +1,21 @@
+{
+    "appclips": {
+        "apps": ["LANULV72W5.com.takutaku.SwiftApp.TouchDownSwarm.Clip"]
+    },
+    "applinks": {
+        "details": [
+            {
+                "appID": "LANULV72W5.com.takutaku.SwiftApp.TouchDownSwarm.Clip",
+                "components": [
+                    { "/": "/touchdown/*" },
+                ]
+            }
+        ]
+    },
+    "activitycontinuation": {
+        "apps": ["LANULV72W5.com.takutaku.SwiftApp.TouchDownSwarm.Clip"]
+    },
+    "webcredentials": {
+        "apps": ["LANULV72W5.com.takutaku.SwiftApp.TouchDownSwarm.Clip"]
+    },
+}
