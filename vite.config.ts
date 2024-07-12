@@ -16,7 +16,8 @@ const testConfig: InlineConfig = {
 
 
 export default defineConfig({
-  build: {
+    base: process.env.GITHUB_PAGES ? 'REPOSITORY_NAME' : './',
+    build: {
     outDir: "build",
     sourcemap: true
   },
